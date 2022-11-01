@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.navbar::before{
+    content: "";
+    background-color:black ;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+ul{
+    display: flex;
+    
+}
+.logo img{
+    width:75px ;
+    height: 86px;
+    
+}
+ul li {
+    font-family: 'Baloo Bhai 2', cursive; 
+    list-style: none;
+    display: flex;
+    text-align: center;
+    font-size: 1.2rem;
+    
+   
+}
+ul li a{
+    text-decoration: none;
+    padding:  34px;
+color: black;
+}
+
+ul li a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 23px;
+}
+    
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 278px;
+    justify-content: center;
+}
+
+.primary{
+font-size:2.3rem ;
+font-family: 'Bree Serif', serif;
+}
+p{
+    
+    font-size: 1.2rem;
+}
+.btn{
+    
+    padding:10px ;
+   font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:'Baloo Bhai 2', cursive ;
+
+}
+.home::before{
+    content: "";
+    background: url(/img/cook-g6ced5d25b_1920.jpg) no-repeat center center/cover  ;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.4;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.secondary{
+    font-family: bee serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.box1{
+    border: 2px solid  black;
+    padding: 25px 25px;
+    border-radius: 23px;
+    margin: 2px 20px;
+    text-align: center;
+    box-shadow: 2px 2px 23px;
+    width: 250px;
+    overflow: hidden;
+}
+
+.services h1{
+    display: flex;
+    justify-content: center;
+}
+
+ .box1 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+ }
+
+ .container i{
+    padding: 25px;
+   
+    }
+
+    .about::before{
+        content: "";
+        background: url(/img/xZTAWqzsmn38eGB9KEXMTK.jpg) no-repeat center center/cover  ;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        opacity: 0.4;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+    }
+    .about{
+        position: relative;
+        height: 500px;
+       
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+    }
+    .about h1{
+        display: flex;
+        justify-content: center;
+
+    }
+       .forms form label{
+        font-size: large;
+        font-family: fantasy;
+       }
+
+       .footer{
+        border: 2px solid black;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        
+       }
+       .footer footer{
+        color: white;}
+
+        .forms::before{ content: "";
+            background: url(/img/pexels-chepté-cormani-1416530.jpg) no-repeat center center/cover  ;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: -1;
+            opacity: 0.4;
+            width: 100%;
+            height: 500px;
+            position: absolute;
+
+        }
+
+        .forms{
+            position: relative;
+           
+        }
+.forms h1{
+    display: flex;
+    justify-content: center;
+}
+.contact input,.contact textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:34px ;
+}
+.contact form{
+    width: 40%;
+}
+.forms{
+    height: 500px;
+}

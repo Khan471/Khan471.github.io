@@ -1,0 +1,31 @@
+.logo img{
+    width:55px ;
+    height: 66px;
+    
+}
+ul li a{
+    font-size: 0.6rem;
+    padding: 11px;
+}
+.home h1{
+    font-size: 1.2rem;
+}
+.primary{
+    font-size: 1.2rem;
+}
+.home::before{
+    height: 380px;
+}
+.forms form label{
+    font-size: small;
+}
+.box1 img{
+    width: 150px;
+}
+.box1 p{
+    font-size: 1rem;
+
+}
+.box1 h2{
+    font-size: large;
+}
